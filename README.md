@@ -1,5 +1,11 @@
 # Here is how I setup my Mac
 
+# Install from script:
+Open the terminal, then:
+```
+bash -c "`curl -L https://git.io/fj5hQ`"
+```
+
 ### Brews:
 
 `brew install autojump`
