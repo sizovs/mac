@@ -1,22 +1,41 @@
 #!/bin/sh
 
-#                    _           _        _ _ 
-#  ___  _____  __   (_)_ __  ___| |_ __ _| | |
-# / _ \/ __\ \/ /   | | '_ \/ __| __/ _` | | |
-#| (_) \__ \>  <    | | | | \__ \ || (_| | | |
-# \___/|___/_/\_\   |_|_| |_|___/\__\__,_|_|_|
+# ___  ___             _____ _____   _____      _               
+# |  \/  |            |  _  /  ___| /  ___|    | |              
+# | .  . | __ _  ___  | | | \ `--.  \ `--.  ___| |_ _   _ _ __  
+# | |\/| |/ _` |/ __| | | | |`--. \  `--. \/ _ \ __| | | | '_ \ 
+# | |  | | (_| | (__  \ \_/ /\__/ / /\__/ /  __/ |_| |_| | |_) |
+# \_|  |_/\__,_|\___|  \___/\____/  \____/ \___|\__|\__,_| .__/ 
+#                                                        | |    
+#                                                        |_|    
+
+echo "Mac OS Setup by Eduards Sizovs"
+echo "Follow me on Twitter! https://twitter.com/eduardsi"
 
 
-echo "I  ❤️  🍎"
-echo "Mac OS Install Setup Script"
-echo "By Eduards Sizovs"
-echo "Follow me on twitter! https://twitter.com/eduardsi"
+
+##############################
+#        Oh My Zsh           #
+##############################
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended
+cp ./dotfiles/.zshrc ~/
+
+
+##############################
+#            Fonts           #
+##############################
+
+cp fonts/*.ttf /Library/Fonts/
+
+exit 0
+
 
 ##############################
 # Prerequisite: Install Brew #
 ##############################
 
-echo "Installing brew..."
+echo "Installing Homebrew..."
 
 if test ! $(which brew)
 then
@@ -24,10 +43,11 @@ then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null
 fi
 
-# Latest brew, install brew cask
 brew upgrade
 brew update
-brew tap caskroom/cask
+brew bundle
+
+exit 0
 
 #############################################
 ### Generate ssh keys & add to ssh-agent
@@ -60,76 +80,10 @@ else
 EOT
 fi
 
-##############################
-# Install via Brew           #
-##############################
-
-echo "Starting brew installs..."
-
-brew install git
-brew install wget
-brew install autojump
-brew install exa
-brew install bat
-brew install fd
-brew install fzf
-brew install m-cli
-brew install the_silver_searcher
-brew install tldr
-brew install transcrypt
-brew install fx
-brew install yq
-brew install httpie
-brew cask install iterm2
-brew cask install docker
-brew cask install todoist
-brew cask install adoptopenjdk
-brew cask install vlc
-brew cask install google-chrome
-brew cask install firefox
-brew cask install 1password
-brew cask install alfred
-brew cask install imageoptim
-brew cask install intellij-idea-ce
-brew cask install karabiner-elements
-brew cask install paste
-brew cask install slack
-brew cask install bear
-brew cask install spectacle
-brew cask install telegram
-brew cask install visual-studio-code
-brew cask install caffeine  # keep computer from sleeping
-
 #############################################
 ### Fonts
 #############################################
 
-echo "Installing fonts..."
-brew tap caskroom/fonts
-brew cask install font-fira-code
-
-
-#############################################
-### Installs from Mac App Store
-#############################################
-
-echo "Installing apps from the App Store..."
-brew install mas
-
-echo "Need to log in to App Store manually to install apps with mas...." 
-echo "Opening App Store. Please login."
-open "/Applications/App Store.app"
-echo "Is app store login complete.(y/n)? "
-read response
-if [ "$response" != "${response#[Yy]}" ]
-then
-	mas install 507257563  # Sip
-	mas install 928871589  # Noizio
-	mas install 1091189122 # Bear
-	mas install 585829637  # Todoist
-else
-	echo "App Store login not complete. Skipping installing App Store Apps" 
-fi
 
 
 # Close any open System Preferences panes, to prevent them from overriding

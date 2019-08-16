@@ -8,14 +8,14 @@ bash -c "`curl -L https://git.io/fj5hQ`"
 
 ### Install manually:
 
-[x] eID
-[x] Simple Diagrams 4
-[x] Ludwig
-[x] Grammarly
-[x] Hemingway Editor
+- [x] eID
+- [x] Simple Diagrams 4
+- [x] Ludwig
+- [x] Grammarly
+- [x] Hemingway Editor
 
 ### Chrome plugins
 
-[x] 1Password
-[x] Grammarly for Chrome
-[x] uBlock
+- [x] 1Password
+- [x] Grammarly for Chrome
+- [x] uBlock
