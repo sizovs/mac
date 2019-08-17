@@ -4,7 +4,6 @@ tap "burntsushi/ripgrep", "https://github.com/BurntSushi/ripgrep.git"
 
 ??? iterm settings
 ??? vs code settings
-??? dank mono
 
 brew "burntsushi/ripgrep/ripgrep-bin"
 brew "git"
