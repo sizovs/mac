@@ -23,19 +23,16 @@ cp ./dotfiles/.zshrc ~/
 
 
 ##############################
-#            Configs           #
+#            Configs         #
 ##############################
 
-cp configs/*.plist /Library/Preferences/ 
+sudo cp configs/*.plist /Library/Preferences/ 
 
 ##############################
 #            Fonts           #
 ##############################
 
 cp fonts/*.ttf /Library/Fonts/
-
-exit 0
-
 
 ##############################
 # Prerequisite: Install Brew #
@@ -52,8 +49,6 @@ fi
 brew upgrade
 brew update
 brew bundle
-
-exit 0
 
 #############################################
 ### Generate ssh keys & add to ssh-agent
@@ -86,12 +81,6 @@ else
 EOT
 fi
 
-#############################################
-### Fonts
-#############################################
-
-
-
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
 osascript -e 'tell application "System Preferences" to quit'
@@ -117,6 +106,15 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 # Disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
+# Disable the warning before emptying the Trash
+defaults write com.apple.finder WarnOnEmptyTrash -bool false
+
+# Show the ~/Library folder
+chflags nohidden ~/Library
+
+# Show the /Volumes folder
+sudo chflags nohidden /Volumes
+
 # Automatically quit printer app once the print jobs complete
 defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
@@ -136,7 +134,7 @@ defaults write com.apple.dock minimize-to-application -bool true
 
 
 # Don’t show recent applications in Dock
-#    defaults write com.apple.dock show-recents -bool false
+defaults write com.apple.dock show-recents -bool false
 
 # Menu bar: hide the Time Machine, User icons, but show the volume Icon.
 for domain in ~/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
@@ -154,6 +152,10 @@ defaults write com.apple.systemuiserver menuExtras -array \
   # Disable smart quotes and smart dashes
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+# Set a blazingly fast keyboard repeat rate
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
@@ -191,7 +193,7 @@ defaults write com.apple.SoftwareUpdate CriticalUpdateInstall -int 1
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 echo ""
-cech "Done!"
+echo "Done!"
 echo ""
 echo ""
 echo "################################################################################"
