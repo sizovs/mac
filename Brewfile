@@ -2,9 +2,6 @@ tap "caskroom/cask"
 tap "caskroom/fonts"
 tap "burntsushi/ripgrep", "https://github.com/BurntSushi/ripgrep.git"
 
-??? iterm settings
-??? vs code settings
-
 brew "burntsushi/ripgrep/ripgrep-bin"
 brew "git"
 brew "nvm"
