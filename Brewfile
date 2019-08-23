@@ -40,6 +40,7 @@ cask "spectacle"
 cask "telegram"
 cask "visual-studio-code"
 
+mas "DigiDoc4 Client", id: 1370791134
 mas "Xcode", id: 497799835
 mas "Sip", id: 507257563
 mas "Noizio", id: 928871589

@@ -1,14 +1,15 @@
 # Here is how I setup my Mac
 
-# Install from script:
-Open the terminal, then:
+## Sign in in App Store
+
+## Run
 ```
-bash -c "`curl -L https://git.io/fj5hQ`"
+git clone https://github.com/sizovs/new-mac-setup.git
+cd new-mac-setup && ./setup.sh
 ```
 
 ### Install manually:
 
-- [x] eID
 - [x] Simple Diagrams 4
 - [x] Ludwig
 - [x] Grammarly
