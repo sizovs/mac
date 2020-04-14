@@ -36,7 +36,7 @@ cask "imageoptim"
 cask "intellij-idea-ce"
 cask "karabiner-elements"
 cask "paste"
-cask "spectacle"
+cask "rectangle"
 cask "telegram"
 cask "visual-studio-code"
 
