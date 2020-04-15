@@ -1,22 +1,25 @@
-# Here is how I setup my Mac
+# Introduction
 
-## Sign in in App Store
+This repository contains a set of scripts and dotfiles for setting up a new Macbook.
 
-## Run
-```
-git clone https://github.com/sizovs/new-mac-setup.git
-cd new-mac-setup && ./setup.sh
-```
+### Automated setup
 
-### Install manually:
+1. Sign in in App Store
 
-- [x] Simple Diagrams 4
-- [x] Ludwig
-- [x] Grammarly
-- [x] Hemingway Editor
+2. Run `./setup.sh`
 
-### Chrome plugins
+> Running the script repeatedly will install missing packages and upgrade the existing ones.
 
-- [x] 1Password
-- [x] Grammarly for Chrome
-- [x] uBlock
+3. Run `./setup_ssh.sh` (if you need a new SSH key)
+
+### Manual setup
+
+Not everything is on Appstore. Some good tools should be installed manually:
+
+- [Ludwig](https://ludwig.guru/)
+
+I use Safari to browse the internet. All Safari extensions I need have been installed programmatically via `Brewfile`.
+
+I use Chrome for web app development. Unlike Safari, Chrome plugins must be installed manually:
+
+- [Vue DevTools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
