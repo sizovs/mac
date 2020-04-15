@@ -65,5 +65,3 @@ mas "Noizio", id: 928871589
 mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
 mas "Todoist", id: 585829637
-mas "uBlock", id: 1385985095
-mas "Grammarly for Safari", id: 1462114288

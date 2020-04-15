@@ -19,8 +19,9 @@ Not everything is on Appstore. Some good tools should be installed manually:
 - [Ludwig](https://ludwig.guru)
 - [iA Writer](https://ia.net/writer)
 
-I use Safari to browse the internet. All Safari extensions I need have been installed programmatically via `Brewfile`.
+I use Chrome for surfing the web, because it's also good for development. Chrome plugins must be installed manually:
 
-I use Chrome for web app development. Unlike Safari, Chrome plugins must be installed manually:
-
-- [Vue DevTools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+- [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en)
+- [uBlock](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
+- [1Password X](https://chrome.google.com/webstore/detail/1password-x-%E2%80%93-password-ma/aeblfdkhhhdcdjpifhhbdiojplfjncoa?hl=en)
+- [Vue DevTools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
