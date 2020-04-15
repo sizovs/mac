@@ -47,6 +47,8 @@ fi
 # Install RVM (with Ruby) (optional)
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
 
+\curl -s "https://get.sdkman.io" | bash
+
 brew upgrade
 brew update
 brew bundle

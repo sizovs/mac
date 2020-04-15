@@ -16,7 +16,8 @@ This repository contains a set of scripts and dotfiles for setting up a new Macb
 
 Not everything is on Appstore. Some good tools should be installed manually:
 
-- [Ludwig](https://ludwig.guru/)
+- [Ludwig](https://ludwig.guru)
+- [iA Writer](https://ia.net/writer)
 
 I use Safari to browse the internet. All Safari extensions I need have been installed programmatically via `Brewfile`.
 
