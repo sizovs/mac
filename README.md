@@ -18,7 +18,7 @@ Not everything is on Appstore. Some good tools should be installed manually:
 
 - [Ludwig](https://ludwig.guru)
 
-I use [Chrome](https://brave.com) for surfing and developing for the web. I install the following plugins manually:
+I use Chrome for surfing and developing for the web. I install the following plugins manually:
 - [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en)
 - [1Password](https://chrome.google.com/webstore/detail/1password-extension-deskt/aomjjhallfgjeglblehebfpbcfeobpgk?hl=en)
 - [Vue DevTools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
