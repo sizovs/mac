@@ -29,6 +29,9 @@ brew "httpie"
 cask "rq"
 cask "docker"
 cask "iina"
+
+# sloth is a native Mac app that shows all open files and sockets in use by all running processes on your system
+cask "sloth"
 cask "typeit4me"
 cask "google-chrome"
 cask "chromedriver"
