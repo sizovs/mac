@@ -6,7 +6,7 @@ tap "dflemstr/tools"
 brew "git"
 
 # node version manager
-brew "nvm"
+brew "n"
 
 # people ask you for the Wi-Fi password. Answer quickly.
 brew "wifi-password"
@@ -15,6 +15,7 @@ brew "wget"
 brew "autojump"
 brew "exa"
 brew "bat"
+brew "m-cli"
 brew "fd"
 brew "fzf"
 brew "m-cli"
