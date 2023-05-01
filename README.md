@@ -17,6 +17,7 @@ This repository contains a set of scripts and dotfiles for setting up a new Macb
 Not everything is on Appstore. Some good tools should be installed manually:
 
 - [Ludwig](https://ludwig.guru)
+- [Zoom](https://zoom.us)
 
 I use Chrome for surfing and developing for the web. I install the following plugins manually:
 - [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en)
