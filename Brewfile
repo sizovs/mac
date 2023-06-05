@@ -11,6 +11,8 @@ brew "n"
 # people ask you for the Wi-Fi password. Answer quickly.
 brew "wifi-password"
 
+brew "dbngin"
+
 brew "wget"
 brew "autojump"
 brew "exa"
