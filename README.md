@@ -15,9 +15,11 @@ This repository contains a set of scripts and dotfiles for setting up a new Macb
 ### Manual setup
 
 Not everything is on Appstore. Some good tools should be installed manually:
-
+- [NormCap](https://dynobo.github.io/normcap/)
+- [TablePlus](https://tableplus.com/download)
 - [Ludwig](https://ludwig.guru)
 - [Zoom](https://zoom.us)
+- [Menu World Time](https://apps.apple.com/us/app/menu-world-time/id1446377255?mt=12)
 - [Rocket](https://matthewpalmer.net/rocket)
 
 I use Chrome for surfing and developing for the web. I install the following plugins manually:
