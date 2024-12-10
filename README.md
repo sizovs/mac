@@ -21,6 +21,7 @@ Not all apps are available on App Store or Homebrew and some of them must be ins
 ### Chrome extensions
 - uBlock
 - Bitwarden
+- Bonjourr
 
 ### Some scripting
 - Zsh plugins: `plugins=(git dotenv autojump macos)`
