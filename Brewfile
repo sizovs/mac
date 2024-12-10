@@ -37,5 +37,4 @@ mas "Hidden Bar", id: 1452453066
 mas "DigiDoc4 Client", id: 1370791134
 mas "Xcode", id: 497799835
 mas "Sip", id: 507257563
-mas "Amphetamine", id: 937984704
 mas "Bear", id: 1091189122
