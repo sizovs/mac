@@ -16,9 +16,12 @@ brew bundle
 Not all apps are available on App Store or Homebrew and some of them must be installed manually:
 
 - [SDKMAN](https://sdkman.io/)
-- Oh-zh-sh + Dracula theme
-- Zsh plugins: `plugins=(git dotenv autojump macos)`
+- [Oh My Zsh](https://ohmyz.sh/) + [Dracula theme](https://draculatheme.com/iterm)
+
+### Chrome extensions
+- uBlock
+- Bitwarden
 
 ### Some scripting
+- Zsh plugins: `plugins=(git dotenv autojump macos)`
 - Git `git config --global user.email 'eduards@sizovs.net'`
-- iCloud symlink: `ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs ~/iCloud`
