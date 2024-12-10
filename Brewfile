@@ -15,6 +15,7 @@ brew "transcrypt"
 brew "jq"
 brew "httpie"
 
+brew "contexts"
 brew "rocket"
 brew "tableplus"
 brew "zoom"
