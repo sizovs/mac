@@ -1,59 +1,37 @@
-tap "caskroom/cask"
-tap "caskroom/fonts"
-tap "dflemstr/tools"
-
-# well... it's Git
+brew "mas"
+brew "nvm"
+brew "schappim/ocr/ocr"
+brew "iterm2"
 brew "git"
-
-# node version manager
-brew "n"
-
-# people ask you for the Wi-Fi password. Answer quickly.
 brew "wifi-password"
-
-brew "dbngin"
-
 brew "wget"
 brew "autojump"
 brew "exa"
 brew "bat"
-brew "m-cli"
 brew "fd"
 brew "fzf"
-brew "aria2"
-brew "m-cli"
 brew "mkcert"
-brew "tldr"
 brew "transcrypt"
 brew "jq"
-brew "yq"
 brew "httpie"
 
-cask "rq"
-cask "docker"
-cask "iina"
-
-# sloth is a native Mac app that shows all open files and sockets in use by all running processes on your system
-cask "sloth"
+cask "rocket"
+cask "tableplus"
+cask "zoom"
 cask "typeit4me"
 cask "google-chrome"
-cask "chromedriver"
-cask "1password"
-cask "alfred"
-cask "contexts"
-cask "bartender"
 cask "imageoptim"
 cask "intellij-idea-ce"
-cask "paste"
-cask "spectacle"
+cask "maccy"
+cask "rectangle"
 cask "telegram"
 cask "visual-studio-code"
-cask "grammarly"
 cask "slack"
-cask "stats"
-cask "spotify"
-cask "freedom"
 
+mas "Bitwarden", id: 1352778147
+mas "Command X", id: 6448461551
+mas "Second Clock", id: 6450279539
+mas "Hidden Bar", id: 1452453066
 mas "DigiDoc4 Client", id: 1370791134
 mas "Xcode", id: 497799835
 mas "Sip", id: 507257563
