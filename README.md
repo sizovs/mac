@@ -20,5 +20,5 @@ Not all apps are available on App Store or Homebrew and some of them must be ins
 - Zsh plugins: `plugins=(git dotenv autojump macos)`
 
 ### Some scripting
-
+- Git `git config --global user.email 'eduards@sizovs.net'`
 - iCloud symlink: `ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs ~/iCloud`
