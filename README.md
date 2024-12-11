@@ -25,4 +25,4 @@ Not all apps are available on App Store or Homebrew and some of them must be ins
 
 ### Some scripting
 - Zsh plugins: `plugins=(git dotenv autojump macos)`
-- Git `git config --global user.email 'eduards@sizovs.net'`
+- Git `git config --global user.email 'eduards@sizovs.net'` and `git config --global user.name 'Eduards Sizovs'`
