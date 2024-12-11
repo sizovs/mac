@@ -23,6 +23,13 @@ Not all apps are available on App Store or Homebrew and some of them must be ins
 - Bitwarden
 - Bonjourr
 
+### IDEA
+- Material Theme (Dracula): https://plugins.jetbrains.com/plugin/8006-material-theme-ui
+- Nyan Progress bar:  https://plugins.jetbrains.com/plugin/8575-nyan-progress-bar
+- Fira Code font + Ligatures on.
+- AceJump
+- Key Promoter X
+
 ### Some scripting
 - Zsh plugins: `plugins=(git dotenv autojump macos)`
 - Git `git config --global user.email 'eduards@sizovs.net'` and `git config --global user.name 'Eduards Sizovs'`
