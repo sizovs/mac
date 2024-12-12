@@ -1,4 +1,5 @@
 brew "mas"
+brew "go-task"
 brew "nvm"
 brew "schappim/ocr/ocr"
 brew "iterm2"
