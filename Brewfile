@@ -29,6 +29,7 @@ brew "telegram"
 brew "visual-studio-code"
 brew "slack"
 brew "todoist"
+brew "selfcontrol"
 
 mas "Bitwarden", id: 1352778147
 mas "Command X", id: 6448461551
