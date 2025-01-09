@@ -17,6 +17,7 @@ brew "hledger"
 
 brew "contexts"
 brew "rocket"
+brew "alfred"
 brew "tableplus"
 brew "zoom"
 brew "typeit4me"
