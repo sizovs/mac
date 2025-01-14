@@ -22,6 +22,7 @@ Not all apps are available on App Store or Homebrew and some of them must be ins
 - uBlock
 - Bitwarden
 - Bonjourr
+- LanguageTool
 
 ### IDEA
 - Material Theme (Dracula): https://plugins.jetbrains.com/plugin/8006-material-theme-ui
