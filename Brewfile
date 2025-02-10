@@ -14,6 +14,7 @@ brew "transcrypt"
 brew "jq"
 brew "httpie"
 brew "hledger"
+brew "cloudflare-warp"
 
 brew "contexts"
 brew "rocket"
