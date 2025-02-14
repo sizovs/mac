@@ -33,6 +33,7 @@ brew "slack"
 brew "todoist"
 brew "selfcontrol"
 
+mas "Ping • Uptime Monitor", id: 1532271726,
 mas "Bitwarden", id: 1352778147
 mas "Command X", id: 6448461551
 mas "Second Clock", id: 6450279539
