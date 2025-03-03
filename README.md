@@ -27,9 +27,14 @@ Not all apps are available on App Store or Homebrew and some of them must be ins
 ### IDEA
 - Material Theme (Dracula): https://plugins.jetbrains.com/plugin/8006-material-theme-ui
 - Nyan Progress bar:  https://plugins.jetbrains.com/plugin/8575-nyan-progress-bar
-- Fira Code font + Ligatures on.
+- Dank Mono Nerd Font + Ligatures on.
 - AceJump
 - Key Promoter X
+
+### VS Code
+- OM Theme (Dracula Italic): https://marketplace.visualstudio.com/items?itemName=omthemes.omthemes
+- Bearded Icons: https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedicons
+- Dank Mono Nerd Font
 
 ### Some scripting
 - Zsh plugins: `plugins=(git dotenv autojump macos)`
