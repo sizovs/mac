@@ -1,3 +1,5 @@
+tap "espanso/espanso"
+brew "espanso"
 brew "mas"
 brew "go-task"
 brew "nvm"
