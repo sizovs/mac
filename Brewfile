@@ -17,7 +17,6 @@ brew "hledger"
 brew "cloudflare-warp"
 
 brew "contexts"
-brew "rocket"
 brew "alfred"
 brew "tableplus"
 brew "zoom"
