@@ -18,6 +18,10 @@ Not all apps are available on App Store or Homebrew and some of them must be ins
 - [SDKMAN](https://sdkman.io/)
 - [Oh My Zsh](https://ohmyz.sh/) + [Dracula theme](https://draculatheme.com/iterm)
 
+### Alfred extensions
+- Snippets (The Alfred Emoji Pack)
+  
+
 ### Chrome extensions
 - uBlock
 - Bitwarden
