@@ -18,9 +18,9 @@ Not all apps are available on App Store or Homebrew and some of them must be ins
 - [SDKMAN](https://sdkman.io/)
 - [Oh My Zsh](https://ohmyz.sh/) + [Dracula theme](https://draculatheme.com/iterm)
 
-### Alfred extensions
-- Snippets (The Alfred Emoji Pack)
-  
+### Alfred Workflows
+- [Snippets (The Alfred Emoji Pack)](https://github.com/amebalabs/TRex/raw/main/Resources/TRex.alfredworkflow)
+
 
 ### Chrome extensions
 - uBlock

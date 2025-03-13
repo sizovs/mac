@@ -1,9 +1,8 @@
 brew "mas"
-brew "go-task"
-brew "trex"
-brew "volta"
+brew "go-task"              # Task runner
+brew "trex"                 # OCR
+brew "volta"                # Node version manager
 brew "font-fira-code"
-brew "schappim/ocr/ocr"
 brew "benbjohnson/litestream/litestream"
 brew "iterm2"
 brew "git"
@@ -17,16 +16,16 @@ brew "httpie"
 brew "hledger"
 brew "cloudflare-warp"
 
-brew "contexts"
+brew "contexts"             # Layout manager
 brew "alfred"
 brew "tableplus"
 brew "zoom"
-brew "typeit4me"
+brew "typeit4me"            # Text expander
 brew "google-chrome"
 brew "imageoptim"
 brew "intellij-idea-ce"
-brew "maccy"
-brew "rectangle"
+brew "maccy"                # Clipboard manager
+brew "rectangle"            # Window manager
 brew "visual-studio-code"
 brew "slack"
 brew "todoist"
