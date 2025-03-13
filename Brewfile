@@ -1,6 +1,7 @@
 brew "mas"
 brew "go-task"
-brew "nvm"
+brew "trex"
+brew "volta"
 brew "font-fira-code"
 brew "schappim/ocr/ocr"
 brew "benbjohnson/litestream/litestream"
