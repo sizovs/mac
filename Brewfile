@@ -16,6 +16,7 @@ brew "httpie"
 brew "hledger"
 brew "cloudflare-warp"
 
+brew "iina"                 # Video player
 brew "contexts"             # Layout manager
 brew "alfred"
 brew "tableplus"
